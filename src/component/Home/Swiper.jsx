@@ -1,6 +1,6 @@
 import React from "react";
 import OceanCardHeader from "../Swiper/OceanCardHeader";
-import ImageSlide from "../Swiper/imageSlide";
+import ImageSlide from "../Swiper/ImageSlide";
 
 export default function OceanCards() {
     return (
