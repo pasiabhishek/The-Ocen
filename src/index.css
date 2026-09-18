@@ -1,8 +1,9 @@
 @import "tailwindcss";
 body{
     /* background: #0099ff; */
-    width: 100vw;
+    width: 100dvw;
     height: auto;
+overflow-x: Hidden;
 }
 body::-webkit-scrollbar{
   display: none;
