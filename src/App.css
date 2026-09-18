@@ -1,0 +1,64 @@
+.hero {
+  height: 101vh;
+  overflow: hidden;
+
+}
+
+.overlay {
+  background-image: radial-gradient(circle, rgba(0, 20, 31, 0.1) 0%, rgba(0, 20, 31, 0.4) 40%, rgba(0, 20, 31, 0.7) 100%);
+
+}
+
+/* Don't keep height: 100vh here */
+.nav>li {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+
+@keyframes waveMove {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-40%, 0, 0);
+  }
+}
+
+/* Bottom wave shifts left */
+.animate-wave-bottom {
+  animation: waveMove 12s linear infinite;
+}
+
+/* Top wave moves slightly faster or in reverse for depth if desired */
+.animate-wave-top {
+  animation: waveMove 8s linear infinite;
+}
+
+@media (min-width: 700px) {
+  .wave1 {
+    margin-bottom: -100px;
+  }
+
+  .wave2 {
+    margin-top: -100px;
+  }
+}
+.section-bg{
+  width: 100%;
+}
+.section {
+  height: 50vh;
+
+  overflow: hidden;
+
+}
+.MarinLifeSlider{
+  width: 100vw;
+  overflow-x: scroll;
+}
+
+.MarinLifeSlider::-webkit-scrollbar{
+  display: none;
+}
