@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from './component/Home/Hero'
-import "./app.css"
+import "./App.css"
 import { Wave1 } from './component/common/Wave1'
 import Section from './component/Home/Section'
 import SmoothScroll from './component/Effects/SmoothScroll'
