@@ -2,7 +2,7 @@ import React from 'react';
 
 export function Wave1() {
   return (
-    <div className='wave-container absolute bottom-0 left-0 w-full z-2 leading-0 overflow-hidden' style={{ marginBottom: "-px" }}>
+    <div className='wave-container wave-bottom absolute bottom-0 left-0 w-full z-2 leading-0 overflow-hidden' style={{ marginBottom: "-px" }}>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" className="w-[200%] h-full wave1">
     
         <path 
@@ -19,7 +19,7 @@ export function Wave1() {
 
 export function Wave2() {
   return (
-    <div className='wave-container absolute top-0 left-0 w-full z-2 leading-0 overflow-hidden' style={{ marginTop: "0px" }}>
+    <div className='wave-container wave-top absolute top-0 left-0 w-full z-2 leading-0 overflow-hidden' style={{ marginTop: "0px" }}>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" className="w-[200%] h-full wave2" >
         <path 
           className="animate-wave-top"

@@ -10,22 +10,16 @@ gsap.registerPlugin(ScrollTrigger)
 
 const Hero = () => {
   useGSAP(() => {
-    gsap.to(".middel-hero-gsap ", {
-   
-      x: 1000,
-      scrollTrigger: {
-        trigger: ".hero",
-        start: "top ",
-        end: "bottom top",
-        scrub: true,
-        markers: false
-      }
-      
+    gsap.from(".middel-hero-gsap, .wave-top, .nav", {
+      y: -500,
+      opacity: 0,
+      duration: 2
     })
 
-    gsap.to(".nav",{
-      x:100,
-       scrollTrigger: {
+    gsap.to(".middel-hero-gsap , .nav", {
+
+      x: 1000,
+      scrollTrigger: {
         trigger: ".hero",
         start: 0,
         end: "bottom top",
@@ -34,7 +28,30 @@ const Hero = () => {
       }
     })
 
-    
+     gsap.from(" .wave-bottom", {
+      y: 500,
+      opacity: 0,
+      duration: 2
+    })
+    gsap.to(" .wave-top", {
+
+      y: -100,
+      scrollTrigger: {
+        trigger: ".hero",
+        start: 0,
+        end: "bottom top",
+        scrub: true,
+        markers: false
+      }
+    })
+
+    gsap.from("video",{
+      scale:3,
+      duration: 2,
+      opacity:0
+    })
+
+
   }, [])
 
   return (
@@ -50,7 +67,7 @@ const Hero = () => {
         <source src="/Hero-bg2.mp4" type='video/mp4' />
       </video>
       <div className='absolute inset-0 overlay z-1'>
-        <HeroMiddle className="heroMiddle"/>
+        <HeroMiddle className="heroMiddle" />
       </div>
       <Header />
 

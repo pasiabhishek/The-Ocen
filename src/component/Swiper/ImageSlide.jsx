@@ -34,7 +34,7 @@ function ImageSlide() {
                         slidesPerView: 4,
                     },
                 }}
-                className="!overflow-visible"
+                className="!overflow-visible card-swiper"
             >
 
                 {oceanCards.map((card, index) => (

@@ -33,7 +33,7 @@ function MarinLifeSlider() {
                         slidesPerView: 4,
                     },
                 }}
-                className="!overflow-visible"
+                className="!overflow-visible card-swiper"
             >
 
                 {marineLife.map((animal) => (
