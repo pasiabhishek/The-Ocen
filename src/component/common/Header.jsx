@@ -5,7 +5,7 @@ function Header() {
     <div className='nav absolute top-0 left-0 z-[2] flex flex-row items-center justify-between w-full px-6 sm:px-10 md:px-14 lg:px-20 pt-6 sm:pt-7 text-gray-50 capitalize font-medium'>
 
       <div className='logo text-[17px] sm:text-[19px] font-extrabold tracking-widest'>
-        <h1>OCEAN</h1>
+        <h1>THE OCEANIC</h1>
       </div>
 
       <div className='menu hidden md:block'>
