@@ -3,11 +3,18 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 import "swiper/css";
 
 import marineLife from "../data/MarinLife.json";
 
+gsap.registerPlugin(ScrollTrigger);
+
 function MarinLifeSlider() {
+    
     return (
         <div className="MarinLifeSlider mx-auto max-w-7xl">
 
@@ -33,7 +40,7 @@ function MarinLifeSlider() {
                         slidesPerView: 4,
                     },
                 }}
-                className="!overflow-visible card-swiper"
+                className="card-swiper"
             >
 
                 {marineLife.map((animal) => (
@@ -119,4 +126,3 @@ function MarinLifeSlider() {
 }
 
 export default MarinLifeSlider;
-
