@@ -13,8 +13,7 @@ const Hero = () => {
     gsap.from(".middel-hero-gsap, .wave-top, .nav", {
       y: -500,
       opacity: 0,
-      duration: 2
-    })
+      duration: 4    })
 
     gsap.to(".middel-hero-gsap , .nav", {
 
@@ -31,8 +30,7 @@ const Hero = () => {
      gsap.from(" .wave-bottom", {
       y: 500,
       opacity: 0,
-      duration: 2
-    })
+      duration: 4    })
     gsap.to(" .wave-top", {
 
       y: -100,
@@ -47,7 +45,7 @@ const Hero = () => {
 
     gsap.from("video",{
       scale:3,
-      duration: 2,
+      duration: 4,
       opacity:0
     })
 
