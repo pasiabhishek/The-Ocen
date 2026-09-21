@@ -18,9 +18,13 @@ function Header() {
       </div>
 
       <div className='button'>
-        <button className='px-5 py-2 sm:px-6 sm:py-2.5 rounded-full border border-[#0099ff] text-xs sm:text-sm font-semibold transition-all duration-300 hover:text-[#0099ff] hover:bg-white  hover:border-amber-50 hover:shadow-[0_0_20px_#0099ff]'>
-          Dive
-        </button>
+        <a linl="#dive">
+
+          <button className='px-5 py-2 sm:px-6 sm:py-2.5 rounded-full border border-[#0099ff] text-xs sm:text-sm font-semibold transition-all duration-300 hover:text-[#0099ff] hover:bg-white  hover:border-amber-50 hover:shadow-[0_0_20px_#0099ff]'>
+            Dive
+          </button>
+        </a>
+
       </div>
 
     </div>
