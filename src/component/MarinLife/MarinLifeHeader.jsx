@@ -1,14 +1,9 @@
-import React from "react";
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-gsap.registerPlugin(ScrollTrigger);
+import React from 'react'
 
 function MarinLifeHeader() {
-   
     return (
         <div>
+
             {/* Heading */}
             <div className="from-left mx-auto mb-12 max-w-7xl">
                 <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-[#0099ff]">
@@ -16,7 +11,7 @@ function MarinLifeHeader() {
                 </p>
 
                 <h1 className="from-left text-4xl font-bold text-white md:text-6xl">
-                    Life Under The{" "}
+                    Life Under The {" "}
                     <span className="text-[#0099ff]">
                         Blue
                     </span>
@@ -26,8 +21,11 @@ function MarinLifeHeader() {
                     Explore the beauty of the marine life.
                 </p>
             </div>
+
+
         </div>
-    );
+
+    )
 }
 
-export default MarinLifeHeader;
+export default MarinLifeHeader
