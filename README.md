@@ -177,6 +177,13 @@ Both carousels are driven by JSON, so adding a new card doesn't require touching
 - **Typography** — bold, wide-tracked uppercase for taglines; large serif-free headlines for impact
 - **Motion** — everything enters from a hidden state and settles into place as you scroll, echoing the feel of drifting through water
 
+## 📄 License
+
+Copyright © 2026 Pasi Abhishek. All Rights Reserved.
+
+This repository is made publicly available for viewing and reference purposes only. No permission is granted to use, copy, modify, merge, publish, distribute, sublicense, sell, or create derivative works from this software without prior written permission from the copyright holder. See [`LICENSE`](./LICENSE) for full terms.
+
+---
 
 <div align="center">
 
